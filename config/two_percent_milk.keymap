@@ -4,12 +4,14 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
 #define HOST_OS 1
 
 #include "../zmk-helpers/helper.h"
 #include "../zmk-helpers/international_chars/russian.dtsi"
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -17,13 +19,15 @@
 
         copy_layer {
             bindings = <
-&kp LC(C)  &lt 1 E
+                &kp LC(C)
+                &lt 1 E
             >;
         };
 
         paste_layer {
             bindings = <
-&kp LC(V)  &kp Y
+                &kp LC(V)
+                &kp Y
             >;
         };
     };
