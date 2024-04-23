@@ -27,7 +27,7 @@
         paste_layer {
             bindings = <
                 &kp LC(V)
-                &kp Y
+                &ru_yo
             >;
         };
     };
