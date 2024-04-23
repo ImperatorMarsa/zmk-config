@@ -17,13 +17,13 @@
 
         copy_layer {
             bindings = <
-&kp LC(C)  &ru_yo
+&kp LC(C)  &lt 1 E
             >;
         };
 
         paste_layer {
             bindings = <
-&kp LC(V)  &trans
+&kp LC(V)  &kp Y
             >;
         };
     };
